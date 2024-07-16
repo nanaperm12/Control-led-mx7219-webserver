@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Running Text Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+</head>
+<body>
+  <div class="topnav">
+    <h1 style="text-align: center;">Running Text Manager</h1>
+  </div>
+  <div class="content" >
+      <form action="/config">
+        <table style="margin-left: auto; margin-right: auto; text-align: center;">
+          <tr>
+            <th> Urutan Ke </th>
+            <th> Pesan </th>
+            <th> Efek Awal</th>
+            <th> Efek Akhir </th>
+          </tr>
+          <tr>
+            <td> <label for="pertama">Pertama</label> </td> 
+            <td> <input type="text" id ="pertama" name="pesan_pertama" placeholder="Pesan"> </td>
+            <td> 
+              <select name="efek_in_pertama" >
+                <option value="0">Scroll Up</option>
+                <option value="1">Scroll Down</option>
+                <option value="2">Scroll Left</option>
+                <option value="3">Scroll Right</option>
+                <option value="4">Opening Cursor</option>
+                <option value="5">Closing Cursor</option>
+              </select>
+            </td>
+            <td> 
+              <select name="efek_out_pertama" >
+                <option value="0">Scroll Up</option>
+                <option value="1">Scroll Down</option>
+                <option value="2">Scroll Left</option>
+                <option value="3">Scroll Right</option>
+                <option value="4">Opening Cursor</option>
+                <option value="5">Closing Cursor</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td> <label for="kedua">Kedua</label> </td>
+            <td> <input type="text" id ="kedua" name="pesan_kedua" placeholder="Pesan"></td>
+            <td> 
+              <select name="efek_in_kedua" >
+                <option value="0">Scroll Up</option>
+                <option value="1">Scroll Down</option>
+                <option value="2">Scroll Left</option>
+                <option value="3">Scroll Right</option>
+                <option value="4">Opening Cursor</option>
+                <option value="5">Closing Cursor</option>
+              </select>
+            </td>
+            <td> 
+              <select name="efek_out_kedua" >
+                <option value="0">Scroll Up</option>
+                <option value="1">Scroll Down</option>
+                <option value="2">Scroll Left</option>
+                <option value="3">Scroll Right</option>
+                <option value="4">Opening Cursor</option>
+                <option value="5">Closing Cursor</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td> <label for="ketiga">Ketiga</label> </td>
+            <td> <input type="text" id ="ketiga" name="pesan_ketiga" placeholder="Pesan"></td>
+            <td> 
+              <select name="efek_in_ketiga" >
+                <option value="0">Scroll Up</option>
+                <option value="1">Scroll Down</option>
+                <option value="2">Scroll Left</option>
+                <option value="3">Scroll Right</option>
+                <option value="4">Opening Cursor</option>
+                <option value="5">Closing Cursor</option>
+              </select>
+            </td>
+            <td> 
+              <select name="efek_out_ketiga" >
+                <option value="0">Scroll Up</option>
+                <option value="1">Scroll Down</option>
+                <option value="2">Scroll Left</option>
+                <option value="3">Scroll Right</option>
+                <option value="4">Opening Cursor</option>
+                <option value="5">Closing Cursor</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td> <input type ="submit" value ="Submit"> </td>
+          </tr>
+        </table>
+      </form>
+  </div>
+</body>
+</html>
